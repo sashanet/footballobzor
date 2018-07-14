@@ -13,8 +13,3 @@ server.port: 8081
 liquibase:
   change-log: liquibase-changeLog.xml
 
-amazonProperties:
-  endpointUrl: https://s3.us-east-2.amazonaws.com
-  accessKey: AKIAICEGHM4IRTUTLDMQ
-  secretKey: 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
-  bucketName: footballobzor

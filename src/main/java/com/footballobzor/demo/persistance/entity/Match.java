@@ -5,6 +5,7 @@ import org.hibernate.annotations.GenericGenerator;
 import org.hibernate.annotations.SQLDelete;
 
 import javax.persistence.*;
+import java.util.Date;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -37,5 +38,8 @@ public class Match {
     @JoinColumn(name = "team2_id", nullable = false)
     private Team team2;
 
+    private String description;
+    private String title;
+    private Date startDate;
     private Boolean deleted;
 }
